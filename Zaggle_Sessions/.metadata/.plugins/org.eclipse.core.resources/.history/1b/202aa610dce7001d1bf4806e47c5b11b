@@ -1,0 +1,19 @@
+package com.akshay;
+import java.util.*;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> strlist = new ArrayList<String>();
+		
+		strlist.add("Aksh");
+		strlist.add("itachi");
+		System.out.println(strlist);
+	
+		for(String str:strlist) {
+			System.out.println(str);
+		}
+	}
+
+}
